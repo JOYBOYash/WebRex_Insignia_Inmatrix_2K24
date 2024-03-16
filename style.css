@@ -1,0 +1,192 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(/ethnic.jpeg);
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    justify-content: space-between;
+    border-bottom: 5px solid #fff;
+}
+.logoimg{
+    clip-path: circle(50% at 50% 50%);
+  margin-right: 25px;
+  cursor: pointer;
+}
+.search{
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    width: 350px;
+    text-align: center;
+    height: 35px;
+}
+.logo{
+    color: aliceblue;
+    margin-left: 15px;
+}
+.search2{
+    display: flex;
+}
+/* .ic{
+} */
+.dress{
+    display: grid;
+    grid-template-rows: 20px 20px 290px ;
+}
+.navlinks{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    font-size: 25px;
+}
+.navbar{
+    /* background-color: white; */
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+   width: 350px;
+   height: 750px;
+   margin-left: 5px;
+   text-align: center;
+   justify-content: center;
+   align-content: center;
+   padding: 5px;
+   font-size: 35px;
+   text-align: left;
+   border-radius: 25px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-weight: 300;
+}
+.navlinks:hover{
+    color:aquamarine;
+    transition: .4s ease-in-out;
+    font-weight: 400;
+    font-size: 40px;
+}
+.navtxt{
+    font-size: 30px;
+    color: aqua;
+    cursor: pointer;
+}
+.navtxt:hover{
+    font-size: 35px;
+    transition: 0.5s ease-in-out;
+    color:whitesmoke;
+}
+.navtexts{
+    margin-top: 100px;
+}
+.nav-head{
+    color: aqua;
+    text-align: center;
+}
+.headdesc{
+    color: white;
+    font-size: 30px;
+    margin-top: 35px;
+}
+.dot{
+    color: red;
+}
+.header2{
+    margin-left: 400px;
+    height: 200px;
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    margin-right: 15px;
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+}
+.head2desc{
+    font-size: 40px;
+    padding: 25px;
+}
+.headertxt{
+    margin-top: 15px;
+    color: aquamarine;
+}
+.head2desc:hover{
+    transition: 0.5s ease-in-out;
+    font-size: 45px;
+}
+.body{
+    margin-top: 200px;
+    margin-left: 400px;
+    height: 500px;
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    margin-right: 15px;
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+}
+.bodyimg{
+    margin-top: 15px;
+    border-radius: 25px;
+}
+.bodydesc{
+    font-size: 30px;
+}
+.browse{
+    width: 150px;
+    background-color: aliceblue;
+    border: none;
+    outline: 2px solid  #fff;
+    border-radius: 25px;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.browse:hover{
+    background-color: aqua;
+    color: white;
+    width: 200px;
+    height: 60px;
+    transition: 0.5s ease-in-out;
+}
+.foot{
+    margin-top: 420px;
+    width: 1800px;
+
+    height: 100px;
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    margin-right: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+.linkfoot{
+    margin-top: 5px;
+    color: white;
+}
+.red:hover{
+    color: red;
+    transition: 0.2s ease-in-out;
+}
+.blue:hover{
+    color: blue;
+    transition: 0.2s ease-in-out;
+}
+.yellow:hover{
+    color: yellow;
+    transition: 0.2s ease-in-out;
+}
